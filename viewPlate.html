@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Plate</title>
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    
+      
+        <div class="navbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+                <li><a href="gallary.html">GALLARY</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="viewPlate.html">VIEW PLATE</a></li>
+            </ul>
+        </div>
+
+    
+    <div class="plate">
+        <div class="item-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+            </table>
+        </div>
+
+<div class="payment">
+        <div class="cart-summary-final">
+            <p>Total Quantity: <span id="total-quantity">0</span></p><br>
+            <p>Total Price: LKR.<span id="total-price">0.00</span></p>
+            <a href="menu.html" class="viewButton">Continue Shopping</a>
+        </div>
+        <div class="payment-form">
+            <form action="contactUs.html">
+              <h3 class="title">Place your Order</h3>
+              <div class="input-container">
+                <label for="">Customer Name</label>
+                <input type="text" name="name" class="input">
+                </div>
+              <div class="input-container">
+                <label for="">Email</label>
+                <input type="email" name="email" class="input">
+              </div>
+              <div class="input-container">
+                <label for="">Contact Number</label>
+                <input types="tel" name="phone" class="input">
+              </div>
+              <div class="input-container">
+                <label for="">Address</label>
+                <input type="text" name="name" class="input">
+                </div>
+              <div class="input-container textarea">
+                <label for="">Customize Your Order</label>
+                <textarea name="message" class="input"></textarea>
+              </div>
+              <input type="submit" value="Order Now" class="btn">
+            </form>
+    
+          </div>
+        </div>
+    </div>
+   
+
+
+    <script src="cart.js"></script>
+
+
+
+    
+<!--making the foooter-->
+<footer>
+
+    <!--make a row,-->
+    <div class="row">
+  
+  
+        <!--make 4 columns in the row-->
+      <div class="col">    <!--add cpmpanylogo to the foooter-->
+        <img src="images/logo1.png" class="logo" >
+      </div>
+  
+      <div class="col"> <!--Add company discription to the footer-->
+        <h2>Heaven Delight Bakes</h2>
+        <p>"Welcome to our delightful world of homemade goodness! we take pride in crafting bakery products that embody the perfect blend of purity and mouthwatering deliciousness. 
+            Every bite from our ovens is a testament to our commitment to quality and your satisfaction. We passionately strive to fulfill your preferences, ensuring each product is a delightful reflection of your choices. Let us be the source of joy in your daily moments with our meticulously baked treats.
+            Explore the irresistible combination of flavors and aesthetics at Heaven Delight Bakes. Your happiness is our mission, and our bakes are the sweet journey towards that goal."
+        </p>
+      </div>
+  
+      <div class="col"> <!--Add main links to the footer-->
+           <h2>Links</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="viewPlate.html">View Plate</a></li>
+              </ul>
+      </div>
+  
+      <div class="col"> <!--Add contact information and social media links to the footer-->
+        <h2>Follow Us</h2>
+  
+        <a href="https://www.facebook.com/profile.php?id=100090221106877&mibextid=ZbWKwL"><img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/_gayuu.m_?igsh=ZTM4ZDRiNzUwMw=="><img src="images/instagram.png"></a>
+        <a href="www.whatsapp.com"><img src="images/whatsapp.png"></a>
+        <a href="0718807499"><img src="images/calls.png"></a>
+        <a href="hansigunasekara2023@gmail.com"><img src="images/email.png" ></a>
+  
+  
+        <h2> call Us</h2>
+        <p>0718807499</p>
+  
+        <h2>Post Us</h2>
+        <p>No.01, Godagama, Homagama</p>
+
+        <h2>Mail Us</h2>
+        <p> heavendeligtbakes@gmail.com</p>
+           
+      </div>
+    </div>
+  </footer>
+      
+  
+  
+  </body>
+  </html>
+
+

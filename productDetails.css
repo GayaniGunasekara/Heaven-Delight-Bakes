@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    text-transform: none;
+
+
+}
+
+
+/*Add background image to the web page navigation bar*/
+.productback{
+    width: 100%;
+    height: 40vh;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    background-color:#FFEAEA;
+}
+
+
+/*styling the web page name*/
+.productdiscription{
+    width:100%;
+    position:absolute;
+    top: 30%;
+    font-size: 40px;
+    transform: translateY(-50%);/* it will be vertically center*/
+    text-align: center;
+    color: #612050;
+}
+
+
+
+
+/*styling the web page content*/
+.products .products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 20px;
+    background-color:#FFEAEA;
+  margin-bottom: 10px;
+
+}
+
+
+/*styling the produvt details boxes*/
+.products .products-container .productBox{
+    padding: 2.5 px;
+    background-color: rgb(235, 206, 226);
+    border-radius: 20px;
+    position:relative;
+    text-align: center;
+    color: #612050;
+}
+
+/*styling the product image inside the product box*/
+.products .products-container .productBox img{
+    width: 160px;
+    height: 170px;
+    margin-top: 10px;  
+}
+
+
+/*stylig the "Add to plate" button inside the product box*/
+.btn{
+    width: 100px;
+    margin: 20px 10px;
+    display: inline-block;
+    font-size:medium;
+    color: #FFEAEA;
+    background-color: #612050;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.btn:hover{
+    /*change the button colour when curser is on the button*/
+    background-color: #E11299;
+    letter-spacing: .1 rem; 
+}
+
+/*styling the price tag*/
+.products .products-container .productBox span{
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+
+
+/*styling the order summary */
+.cart-summary {
+    width:fit-content;
+    background-color: rgb(200, 165, 189);
+    color: #612050;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    transform: translateY(-50%);/* it will be vertically center*/
+    margin: 20px;
+}
+
+.cart-summary h2 {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.cart-summary p {
+    font-size: 15px;
+}
+
+
+
+/*styling the View Plate page*/
+.plate {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #FFEAEA;
+}
+
+.item-list {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.cart-summary-final {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #FFEAEA;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #612050;
+  
+}
+
+table, th, td {
+    border: 1px solid #612050;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: #612050;
+}
+
+
+/* Centering the cart-summary-final and payment-form within payment */
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the container */
+    gap: 20px; /* Add some space between the cart summary and the payment form */
+    padding: 20px;
+}
+
+
+
+.cart-summary-final{
+    border-radius: 20px;
+    border: 1px solid #612050;
+    color: #612050;
+    font-weight: bold;
+
+}             
+
+.viewButton{
+    width: 100px;
+    margin: 20px 10px;
+    display: inline-block;
+    font-size:medium;
+    color: #FFEAEA;
+    background-color: #612050;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+
+.viewButton:hover {
+    background-color: #E11299;
+}
+.payment-form {
+    border: 1px solid #612050;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #FFEAEA;
+    color: #612050;
+}
+
+.input-container {
+    margin-bottom: 15px;
+  
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+ 
+   
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: rgb(236, 200, 225);
+}
+.textarea .input {
+    height: 100px;
+    resize: none;
+    background-color: rgb(236, 200, 225);
+}

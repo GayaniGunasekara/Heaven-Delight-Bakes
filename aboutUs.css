@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+/*styling the background (Add background colour )*/
+body{
+    background-color:#FFEAEA;
+}
+
+/*stylling the first div(content1)- the background of WhoWeAre div*/
+.content1{
+    padding: 150px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+
+/*styling the whoWeAre div(the first box appearing in the webpage)*/
+.whoWeAre{
+    width: 100%;
+    max-width: 1300px; 
+    background-color: #FFEAEA;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.6);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*set the width for image in WhoWeAre box*/
+.whoWeAre img{
+    width: 100%;
+}
+
+
+/*add padding to description div*/
+.description{
+    padding: 40px;   
+}
+
+
+/*styling the h1(topic-Who We Are...?) in WhoWeAre box*/
+.description h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color:#612050;
+    font-size:40px;
+    text-align: center;
+}
+
+
+/*styling the paragraph in WhoWeAre box*/
+.description p{
+    font-size: 18px;
+    color:#E11299;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/*styling the button(Contact Us) in WhoWeAre box*/
+.contact button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #612050;
+    color:#FFEAEA;
+    cursor: pointer;
+}
+/*style the hyperlink in the button*/
+.contact button a{
+    text-decoration:none;
+    color: #FFEAEA;
+}
+
+/*change bckground colour and text colour of the button  when the cursor point it*/
+.contact button:hover{
+    transition: 0.5s;
+    background-color:#E11299;
+    color: #612050;
+}
+
+
+
+
+
+
+.content2{
+    background-color: #FFEAEA;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 50px 60px;
+    margin: 30px;
+}
+
+.Services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+    background-color: #FFEAEA;  
+}
+
+
+.content2 h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 30px;
+    color: #612050;
+}
+
+
+.card{
+    background-color: #612050;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    height: 210px;
+    transition: background-color 0.3s ease;
+
+}
+
+.card:hover{
+    background-color: #E11299;
+}
+
+.box{
+    padding: 6% 6%;
+    text-align: center;
+    transition: all0.3s ease;
+}
+
+.box h2{
+    font-size: 25px;
+    margin-top: 10px;   
+    color: #FFEAEA;
+    padding: 25px;
+}
+
+.card:hover .box{
+    transform: scale(1.03);
+}
+
+.box p{
+    color:#FFEAEA;
+    padding-bottom: 5px;
+
+}

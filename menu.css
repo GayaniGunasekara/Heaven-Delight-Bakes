@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    text-transform: none;
+    box-sizing: border-box;
+
+}
+
+
+/*Add background image to the menu page navigation bar*/
+.menuback{
+    width: 100%;
+    height: 40vh;
+    background-size:cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(89, 2, 88, 0.5)), url(images/test03.jpg);
+    
+}
+
+
+/*styling the web page name(PRODUCTS)*/
+.menudiscription{
+    width:100%;
+    position:absolute;
+    top: 20%;
+    font-size: 40px;
+    transform: translateY(-50%);/* it will be vertically center*/
+    text-align: center;
+    color: #FFEAEA;
+}
+
+
+
+/*making box containers for each products*/
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    background-color: #FFEAEA;
+   
+}
+
+.menucont .box-container {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 30px;
+ 
+ 
+ }
+
+
+ /*add background image to each box */
+.box1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/savory.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.2s ease;
+}
+.box2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)),url(images/sweets.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.2s ease;
+}.box3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/cakes.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.2s ease;
+}.box4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)),url(images/bevarages.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.2s ease;
+}.box5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/cupcake.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+.box6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/SrilankanFood.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+    transition: 0.2s ease;
+}
+.box7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/desserts.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+.box8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(89, 2, 88, 0.5)), url(images/Appetizers.jpg);
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+
+/*Styling the product name (h2)*/
+.box-container h2{
+    margin-top: 60%;
+    color: #FFEAEA;
+    padding: 10px;
+}
+
+/*Styling the product description(p)*/
+.box-container p{
+    color: #FFEAEA;
+    line-height:1.5;
+}
+
+/*Styling the view more buttons */
+.box-container .btn{
+    padding: 8px 25px;
+    margin-top: 20%;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid #FFEAEA;
+    background: transparent;
+    color:#FFEAEA;
+   
+}
+ .box1 .box2 .box3 .box4 .box5 .box6 .box7.btn:hover{
+    letter-spacing: 1px;
+}
+
+ .box1 .box2 .box3 .box4 .box5 .box6 .box7:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.9);
+    transform: scale(1.04);
+}
+
+

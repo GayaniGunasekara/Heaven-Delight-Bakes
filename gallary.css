@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+/*Add background colour to gallary page*/
+body{
+    background-color: #FFEAEA;
+}
+
+/*styling the div which contain the description.
+addingn text colour, padding and set relative position */
+.gallaryDescription {
+    color: #612050;
+    display: flex;
+    padding: 90px;
+}
+
+
+/*set text size and weight, aligning the text in the gallaaryDescription div*/
+.gallaryDescription p {
+   text-align: center;
+   font-size: 20px;
+   font-weight:bolder;
+
+}
+
+
+/*styling the first picture slider*/
+.firstLine{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+/*styling the second picture slider*/
+.secondLine{
+    display: flex;
+    justify-content: center;
+}
+
+/*styling the third piccture slider*/
+.thirdLine{
+    display: flex;
+    justify-content: center;
+}
+
+.fouthLine{
+    display: flex;
+    justify-content: center;
+}
+.fifthLine{
+    display: flex;
+    justify-content: center;
+}
+.sixthLine{
+    display: flex;
+    justify-content: center;
+}
+/*styling the heading-h1 in the first picture slider*/
+.firstLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+
+/*styling the heading-h1 in the second picture slider*/
+.secondLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+
+/*styling the heading-h1 in the third picture slider*/
+.thirdLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+/*styling the heading-h1 in the third picture slider*/
+.fouthLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+
+.fifthLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+
+
+.sixthLine h1{
+    text-align: center;
+    color: #612050;
+    padding: 20px;
+}
+
+
+/*set width of the picture sliders*/
+.line{
+    max-width: 1400px;
+    width: 100%;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+
+/*styling the arrow button in the picture sliders*/
+.slider-wrapper .slide-button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: #FFEAEA;
+    border: none;
+    outline: none;
+    background: #612050;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    /*set arrows to center of the picter slider*/
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*set to change the background colour of the arrows when the cursor move on it */
+.slider-wrapper .slide-button:hover{
+    background: #E11299;
+}
+
+/*set arrow button to left */
+.slider-wrapper .slide-button#prev-slide{
+    left: -20px;
+    
+}
+
+/*set arrow button to right*/
+.slider-wrapper .slide-button#next-slide{
+    right: -20px;
+}
+
+/*styling the picture slider */
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    margin-bottom:30px;
+    scrollbar-width: none;
+    overflow-x:auto;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;   /*set to not display the web scrollbar*/
+}
+
+
+.slider-wrapper .image-list .image-item{
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+ .line .slider-scrollbar{
+    height: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/*styling the non showing part of the scollbar*/
+.slider-scrollbar .scrollbar-track{
+    height: 2px;
+    width: 100%;
+    background: #b42626; /*set the colour to the non showing part of the scrollbar*/
+    position: relative;
+    border-radius: 4px;
+}
+
+/*the scrollbar is popout when the cursor move on it*/
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+
+/*styling the showing part of the scrollbar*/
+.slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #48e222;   /*set the colour to the showing part of the scrollbar*/
+    border-radius: inherit;
+    cursor: grab; /*set to show grab hand when the cursor move on the showing part of the scolllbar*/
+}
+
+
+/*this set the grab hand to grab the showing part*/
+.slider-scrollbar .scrollbar-thumb:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+
+}
+
+
+
+
+/**/
+.slider-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+
+
+

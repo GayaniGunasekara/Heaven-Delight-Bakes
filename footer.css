@@ -1,0 +1,56 @@
+/*styling the footer*/
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 2.5rem;
+    width: 100%;
+    background:  #612050;
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    color:#FFEAEA;
+    font-size: 12px;
+    line-height: 15px;
+    border-top-left-radius: 90px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 15%;
+    padding: 20px;
+}
+
+.logo{
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+.col h2{
+    width: fit-content;
+    border-bottom: 1px solid #E11299;
+    margin: 20px 0;
+}
+
+ul li {
+    list-style: circle;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFEAEA;
+}
+

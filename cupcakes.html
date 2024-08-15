@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <title>CupCakes</title>
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
+   
+</head>
+<body>
+
+
+
+    
+<script src="cart.js"></script>
+
+
+
+
+
+
+
+    <!--making navigation bar, Product name(web page name - savory) and its background-->
+<div class="productback">  
+    <!--making navigation bar-->
+    <div class="navbar">
+      <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contactUs.html">CONTACT US</a></li>
+          <li><a href="gallary.html">GALLARY</a></li>
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+          <li><a href="viewPlate.html">VIEW PLATE</a></li>
+      </ul>
+    </div>
+
+    <!--making web page name (Savories) -->
+\
+    <div class="productdiscription">
+        <h1> Cupcakes</h1>
+
+            <!-- Section to display total price and quantity -->
+    <div class="cart-summary">
+        <h2>Order summary</h2>
+        <p>Item Quantity: <span id="total-quantity">0</span></p>
+        <p>Total Bill: LKR.<span id="total-price">0.00</span></p>
+        <a href="viewPlate.html" class="viewButton">View plate</a>
+    </div>
+    </div>
+</div>
+
+
+<div class="products" >
+  <div class="products-container">
+
+    <div class="productBox">
+        <img src="images/cupcakes/Banana Caramel Cupcakes.jpg">
+        <h3>Banana Caramel Cupcake</h3>
+        <span class="price" data-price="250">LKR.250.00</span>
+        <a href="#" class="btn" onclick="addToCart('Banana Caramel Cupcake', 250)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Blueberry Cupcakes.jpg">
+        <h3>Blueberry Cupcake</h3>
+        <span class="price" data-price="340">LKR.340.00</span>
+        <a href="#" class="btn" onclick="addToCart('Blueberry Cupcake', 340)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Chocolate Chip Cookie Cupcakes.jpg">
+        <h3>Chocolate Chip Cookie Cupcake</h3>
+        <span class="price" data-price="270">LKR.270.00</span>
+        <a href="#" class="btn" onclick="addToCart('Chocolate Chip Cookie Cupcake', 270)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Chocolate Cupcakes.jpg">
+        <h3>Chocolate Cupcake</h3>
+        <span class="price" data-price="220">LKR.220.00</span>
+        <a href="#" class="btn" onclick="addToCart('Chocolate Cupcake', 220)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Chocolate Peanut Butter Cupcakes.jpg">
+        <h3>Chocolate Peanut Butter Cupcake</h3>
+        <span class="price" data-price="420">LKR.420.00</span>
+        <a href="#" class="btn" onclick="addToCart('Chocolate Peanut Butter Cupcake', 420)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images//cupcakes/Coconut Almond Cupcakes.jpg">
+        <h3>Coconut Almond Cupcakes</h3>
+        <span class="price" data-price="420">LKR.420.00</span>
+        <a href="#" class="btn" onclick="addToCart('Coconut Almond Cupcakes', 420)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Moist Vanilla Cupcakes.jpg">
+        <h3>Moist Vanilla Cupcake</h3>
+        <span class="price" data-price="320">LKR.320.00</span>
+        <a href="#" class="btn" onclick="addToCart('Chicken Pastry', 320)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cupcakes/Salted Caramel Cupcakes.jpg">
+        <h3>Salted Caramel Cupcake</h3>
+        <span class="price" data-price="380">LKR.380.00</span>
+        <a href="#" class="btn" onclick="addToCart('Salted Caramel Cupcake', 380)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--making the foooter-->
+<footer>
+
+    <!--make a row,-->
+    <div class="row">
+  
+  
+        <!--make 4 columns in the row-->
+      <div class="col">    <!--add cpmpanylogo to the foooter-->
+        <img src="images/logo1.png" class="logo" >
+      </div>
+  
+      <div class="col"> <!--Add company discription to the footer-->
+        <h2>Heaven Delight Bakes</h2>
+        <p>"Welcome to our delightful world of homemade goodness! we take pride in crafting bakery products that embody the perfect blend of purity and mouthwatering deliciousness. 
+            Every bite from our ovens is a testament to our commitment to quality and your satisfaction. We passionately strive to fulfill your preferences, ensuring each product is a delightful reflection of your choices. Let us be the source of joy in your daily moments with our meticulously baked treats.
+            Explore the irresistible combination of flavors and aesthetics at Heaven Delight Bakes. Your happiness is our mission, and our bakes are the sweet journey towards that goal."
+        </p>
+      </div>
+  
+      <div class="col"> <!--Add main links to the footer-->
+           <h2>Links</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="viewPlate.html">View Plate</a></li>
+              </ul>
+      </div>
+  
+      <div class="col"> <!--Add contact information and social media links to the footer-->
+        <h2>Follow Us</h2>
+  
+        <a href="https://www.facebook.com/profile.php?id=100090221106877&mibextid=ZbWKwL"><img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/_gayuu.m_?igsh=ZTM4ZDRiNzUwMw=="><img src="images/instagram.png"></a>
+        <a href="www.whatsapp.com"><img src="images/whatsapp.png"></a>
+        <a href="0718807499"><img src="images/calls.png"></a>
+        <a href="hansigunasekara2023@gmail.com"><img src="images/email.png" ></a>
+  
+        <h2> call Us</h2>
+        <p>0718807499</p>
+  
+        <h2>Post Us</h2>
+        <p>No.01, Godagama, Homagama</p>
+
+        <h2>Mail Us</h2>
+        <p> heavendeligtbakes@gmail.com</p>   
+
+      </div>
+    </div>
+  </footer>
+      
+  
+  
+  
+  
+  
+  
+
+  </body>
+  </html>
+  

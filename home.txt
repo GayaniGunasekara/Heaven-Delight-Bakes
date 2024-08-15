@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+<div class="back">                <!--Making the first background appear in the website which contain the navigation bar,logo and order button-->
+ <div class="navbar">            <!--Making the navigation bar-->
+    <ul>
+        <li><a href="home.html">HOME</a></li>
+        <l
+        i><a href="menu.html">MENU</a></li>
+
+</div>
+
+
+
+<!--making div which has a photo and a thought-->
+<div class="storybox">
+
+  <div class="story1">        <!--add the picture-->
+    <img src="images/picture08.jpg">
+  </div>
+
+  <div class="story2">   <!--add a thought(paragraph)-->
+    <p>Baking with love,<br> makes it delicious.</p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--making the foooter-->
+<footer>
+
+  <!--make a row,-->
+  <div class="row">
+
+
+      <!--make 4 columns in the row-->
+    <div class="col">    <!--add cpmpanylogo to the foooter-->
+        <img src="C:\Users\Gayani Gunasekara\Desktop\Heaven Delight Bakes web\images\logo1.png" class="logo">
+    </div>
+
+    <div class="col"> <!--Add company discription to the footer-->
+      <h2>Heaven Delight Bakes</h2>
+      <p>"Welcome to our delightful world of homemade goodness! we take pride in crafting bakery products that embody the perfect blend of purity and mouthwatering deliciousness. 
+          Every bite from our ovens is a testament to our commitment to quality and your satisfaction. We passionately strive to fulfill your preferences, ensuring each product is a delightful reflection of your choices. Let us be the source of joy in your daily moments with our meticulously baked treats.
+          Explore the irresistible combination of flavors and aesthetics at Heaven Delight Bakes. Your happiness is our mission, and our bakes are the sweet journey towards that goal."
+      </p>
+    </div>
+
+    <div class="col"> <!--Add main links to the footer-->
+         <h2>Links</h2>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="gallary.html">Gallary</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+    </div>
+
+    <div class="col"> <!--Add contact information and social media links to the footer-->
+      <h2>Follow Us</h2>
+
+      <a href="https://www.facebook.com/profile.php?id=100090221106877&mibextid=ZbWKwL"><img src="images/facebook.png"></a>
+      <a href="https://www.instagram.com/_gayuu.m_?igsh=ZTM4ZDRiNzUwMw=="><img src="images/instagram.png"></a>
+      <a href="www.whatsapp.com"><img src="images/whatsapp.png"></a>
+      <a href="0718807499"><img src="images/calls.png"></a>
+      <a href="hansigunasekara2023@gmail.com"><img src="images/email.png" ></a>
+
+
+      <h2> call Us</h2>
+      <p>0718807499</p>
+
+      <h2>Post Us</h2>
+      <p>3232, Homagama</p>
+         
+    </div>
+
+  </div>
+
+</footer>
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

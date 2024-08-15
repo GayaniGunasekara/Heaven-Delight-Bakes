@@ -1,0 +1,52 @@
+
+/*Styling the navigation bar*/
+
+
+.navbar{
+    position: fixed;
+    border-radius: 35px;
+    font-weight: 900;
+    width:100%;
+    padding:20px 30px;
+    display:flex;
+    align-items: center;
+    justify-content:center;/*where to align the navigation bar(left, middle, right)*/
+    background-color: #612050;
+    font-family: poppins;
+}
+
+
+/*making some spaces between navigation bar items*/
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative; /*to show the line under the items*/
+}
+
+
+/*changing text color and size of the item in the navigation bar*/
+.navbar ul li a{
+text-decoration:none;
+color: #FFEAEA;
+font-size:larger;
+
+}
+
+/*to add bottom lines under the each element*/
+.navbar ul li::after{
+    content:'';
+    height: 5px;
+    width: 0; /*if you want to NOT hide the lines under the item,keep width=100%.but if you want to hide the lines and show the lines only when the curser is moving, keep width=0 */
+    background:#E11299;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s; /*how much speed the bottom lines moving*/
+}
+/*when the curser moving on the navigation bar, the botom lines are moving left to right side.*/
+.navbar ul li:hover::after{
+    width: 100%; /*the width of a botton line(how much fill out when the curser moving on the item) */
+}
+
+

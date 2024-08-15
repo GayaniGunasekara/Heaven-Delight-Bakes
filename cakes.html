@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Cakes</title>
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
+   
+</head>
+<body>
+
+
+
+    
+<script src="cart.js"></script>
+
+
+
+
+
+
+
+    <!--making navigation bar, Product name(web page name - savory) and its background-->
+<div class="productback">  
+    <!--making navigation bar-->
+    <div class="navbar">
+      <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contactUs.html">CONTACT US</a></li>
+          <li><a href="gallary.html">GALLARY</a></li>
+          <li><a href="aboutUs.html">ABOUT US</a></li>
+          <li><a href="viewPlate.html">VIEW PLATE</a></li>
+      </ul>
+    </div>
+
+    <!--making web page name (Savories) -->
+\
+    <div class="productdiscription">
+        <h1> Cakes</h1>
+
+            <!-- Section to display total price and quantity -->
+    <div class="cart-summary">
+        <h2>Order summary</h2>
+        <p>Item Quantity: <span id="total-quantity">0</span></p>
+        <p>Total Bill: LKR.<span id="total-price">0.00</span></p>
+        <a href="viewPlate.html" class="viewButton">View plate</a>
+    </div>
+    </div>
+</div>
+
+
+<div class="products" >
+  <div class="products-container">
+
+    <div class="productBox">
+        <img src="images/cakes/butter cake.jpg">
+        <h3>Butter Cake ( 1 kg )</h3>
+        <span class="price" data-price="600">LKR.600.00</span>
+        <a href="#" class="btn" onclick="addToCart('Butter Cake ( 1 kg )', 600)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/chocolate cake.jpg">
+        <h3>Chocolate cake ( 1kg ) </h3>
+        <span class="price" data-price="800">LKR.800.00</span>
+        <a href="#" class="btn" onclick="addToCart('Chocolate cake ( 1kg ) ', 800)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/fruit cake.jpg">
+        <h3>Fruit Cake ( 1kg )</h3>
+        <span class="price" data-price="700">LKR.700.00</span>
+        <a href="#" class="btn" onclick="addToCart('Fruit Cake ( 1kg )', 700)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/ribbon cake.jpg">
+        <h3>Ribbon Cake ( 1kg ) </h3>
+        <span class="price" data-price="650">LKR.650.00</span>
+        <a href="#" class="btn" onclick="addToCart('Ribbon Cake ( 1kg )', 650)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/bento cake.jpg">
+        <h3>Bento Cake ( 500g )</h3>
+        <span class="price" data-price="1000">LKR.1000.00</span>
+        <a href="#" class="btn" onclick="addToCart('Bento Cake ( 500g )', 1000)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/vanilla custard cake.jpg">
+        <h3>Vanilla Custard Cake ( 1kg) </h3>
+        <span class="price" data-price="900">LKR.900.00</span>
+        <a href="#" class="btn" onclick="addToCart('Vanilla Custard Cake ( 1kg) ', 900)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+    <div class="productBox">
+        <img src="images/cakes/blueberry cheesecake.jpg">
+        <h3>Blueberry Cheesecake ( 1kg ) </h3>
+        <span class="price" data-price="1200">LKR.1200.00</span>
+        <a href="#" class="btn" onclick="addToCart('Blueberry Cheesecake ( 1kg )', 1200)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+  
+    <div class="productBox">
+        <img src="images/cakes/jar cake.jpg">
+        <h3>Jar Cake</h3>
+        <span class="price" data-price="1200">LKR.1200.00</span>
+        <a href="#" class="btn" onclick="addToCart('Jar Cake', 1200)">Add to Plate</a>
+        <span class="quantity">Quantity: <span class="item-quantity">0</span></span>
+    </div>
+
+    
+
+ 
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--making the foooter-->
+<footer>
+
+    <!--make a row,-->
+    <div class="row">
+  
+  
+        <!--make 4 columns in the row-->
+      <div class="col">    <!--add cpmpanylogo to the foooter-->
+        <img src="images/logo1.png" class="logo" >
+      </div>
+  
+      <div class="col"> <!--Add company discription to the footer-->
+        <h2>Heaven Delight Bakes</h2>
+        <p>"Welcome to our delightful world of homemade goodness! we take pride in crafting bakery products that embody the perfect blend of purity and mouthwatering deliciousness. 
+            Every bite from our ovens is a testament to our commitment to quality and your satisfaction. We passionately strive to fulfill your preferences, ensuring each product is a delightful reflection of your choices. Let us be the source of joy in your daily moments with our meticulously baked treats.
+            Explore the irresistible combination of flavors and aesthetics at Heaven Delight Bakes. Your happiness is our mission, and our bakes are the sweet journey towards that goal."
+        </p>
+      </div>
+  
+      <div class="col"> <!--Add main links to the footer-->
+           <h2>Links</h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="viewPlate.html">View Plate</a></li>
+              </ul>
+      </div>
+  
+      <div class="col"> <!--Add contact information and social media links to the footer-->
+        <h2>Follow Us</h2>
+  
+        <a href="https://www.facebook.com/profile.php?id=100090221106877&mibextid=ZbWKwL"><img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/_gayuu.m_?igsh=ZTM4ZDRiNzUwMw=="><img src="images/instagram.png"></a>
+        <a href="www.whatsapp.com"><img src="images/whatsapp.png"></a>
+        <a href="0718807499"><img src="images/calls.png"></a>
+        <a href="hansigunasekara2023@gmail.com"><img src="images/email.png" ></a>
+  
+        <h2> call Us</h2>
+        <p>0718807499</p>
+  
+        <h2>Post Us</h2>
+        <p>No.01, Godagama, Homagama</p>
+
+        <h2>Mail Us</h2>
+        <p> heavendeligtbakes@gmail.com</p>   
+
+      </div>
+    </div>
+  </footer>
+      
+  
+  
+  
+  
+  
+  
+
+  </body>
+  </html>
+  
